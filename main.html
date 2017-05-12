@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/dice.css"  /> 
+		<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+		<script src="js/sifter-js.js"></script>
+		<!--<script type="text/javascript" src="js/jquery.js" ></script>-->
+		<script src="js/diceMove.js"></script>
+		<script src="js/dicePress.js"></script>
+		<script src="js/pic.js"></script>
+	</head>
+	<body style="overflow: auto">
+		<!--顶部图片top-->
+		<div id="top" class="top">
+			<img class="img-top" id="img-top" src="img/main.gif" />
+		</div>
+		<!--骰子显示部分-->
+		<div id="main" style="display: none;" class="center-block">
+		    <div class="sifters">
+		        <div class="wrap1">
+		            <div id="dice1" class="dice dice_1"></div>
+		        </div>
+		        <div class="wrap2">
+		            <div id="dice2" class="dice dice_2"></div>
+		        </div>
+		        <div class="wrap3">
+		            <div id="dice3" class="dice dice_3"></div>
+		        </div>
+		        <div class="wrap4">
+		            <div id="dice4" class="dice dice_4"></div>
+		        </div>
+		        <div class="wrap5">
+		            <div id="dice5" class="dice dice_5"></div>
+		        </div>
+			</div>
+			<!--统计结果显示-->
+			<div class="des">
+		        <p id="sum1"></p>
+		        <p id="sum2"></p>
+		        <p id="sum3"></p>
+		        <p id="sum4"></p>
+		        <p id="sum5"></p>
+		        <p id="sum6"></p>
+		    </div>
+		</div>
+		<!--底部图片bottom-->
+		<div id="bottom" class="bottom">
+			<img class="img-bottom" id="img-bottom" src="img/main.gif" />				
+		</div>
+		<!--声音控制-->
+		<div id="vi"></div>		
+		<!--操作按钮，此处应由摇一摇功能取代-->
+		<input type="button" value="PRESS" id="button1"/>
+	    <!--页面载入时就进行声音的加载，状态设置为预备播放的状态-->
+		<audio  id="rocked_voice" src="voices/rocked.m4a" loop="loop"/>
+		<audio  id="rocking_voice"  preload="auto" src="voices/rocking.m4a" loop="loop"/>
+	</body>
+</html>

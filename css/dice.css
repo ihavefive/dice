@@ -1,0 +1,103 @@
+#main{
+	height: 20%;
+	position: absolute;
+    text-align: center;
+    left:0;
+    right:0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.sifters {
+	
+	width: 100%;
+}
+
+.wrap1 {
+	display: inline-block;
+	width: 70px;
+	height: 150px;
+	margin: 20px 10px 20px 10px;
+}
+
+.wrap2 {
+	display: inline-block;
+	width: 70px;
+	height: 150px;
+	margin: 20px 10px 20px 10px;
+}
+
+.wrap3 {
+	display: inline-block;
+	width: 70px;
+	height: 150px;
+	margin: 20px 10px 20px 10px;
+}
+
+.wrap4 {
+	display: inline-block;
+	width: 70px;
+	height: 150px;
+	margin: 20px 10px 20px 10px;
+}
+
+.wrap5 {
+	display: inline-block;
+	width: 70px;
+	height: 150px;
+	margin: 20px 10px 20px 10px;
+}
+
+.dice {
+	width: 90px;
+	height: 90px;
+	background:url(../img/dice.png) no-repeat;
+	cursor: pointer;
+}
+
+.dice_1 {
+	background-position: -5px -4px
+}
+
+.dice_2 {
+	background-position: -5px -107px
+}
+
+.dice_3 {
+	background-position: -5px -212px
+}
+
+.dice_4 {
+	background-position: -5px -317px
+}
+
+.dice_5 {
+	background-position: -5px -427px
+}
+
+.dice_6 {
+	background-position: -5px -538px
+}
+
+.dice_t {
+	background-position: -5px -651px
+}
+
+.dice_s {
+	background-position: -5px -763px
+}
+
+.dice_e {
+	background-position: -5px -876px
+}
+
+p#result {
+	text-align: center;
+	font-size: 16px
+}
+
+p#result span {
+	font-weight: bold;
+	color: #f30;
+	margin: 6px
+}
